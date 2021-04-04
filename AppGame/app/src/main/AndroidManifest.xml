@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppGame">
+        <activity android:name=".houseki2"></activity>
+        <activity android:name=".houseki1" />
+        <activity android:name=".houseki_m" />
+        <activity android:name=".kono2" />
+        <activity android:name=".kono1" />
+        <activity android:name=".KonoM" />
+        <activity android:name=".fruit2" />
+        <activity android:name=".fruit1" />
+        <activity android:name=".FruitM" />
+        <activity android:name=".tokyo2" />
+        <activity android:name=".Game" />
+        <activity android:name=".Score" />
+        <activity android:name=".Tokyo1" />
+        <activity android:name=".mode" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
